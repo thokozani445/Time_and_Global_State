@@ -1,0 +1,22 @@
+{"type": "drift", "node": "A", "drift": 1951}
+{"type": "drift", "node": "B", "drift": 1816}
+{"type": "drift", "node": "B", "drift": 94}
+{"type": "drift", "node": "A", "drift": 1815}
+{"type": "drift", "node": "B", "drift": 1615}
+{"type": "drift", "node": "B", "drift": 164}
+{"type": "drift", "node": "A", "drift": 1879}
+{"type": "drift", "node": "B", "drift": 1735}
+{"type": "drift", "node": "B", "drift": 150}
+{"type": "drift", "node": "A", "drift": 1926}
+{"type": "drift", "node": "B", "drift": 1859}
+{"type": "drift", "node": "B", "drift": 69}
+{"type": "drift", "node": "A", "drift": 1810}
+{"type": "drift", "node": "B", "drift": 1759}
+{"type": "drift", "node": "R3-N5", "drift_ms": 2322, "hlc_wall": 1758204965315, "arrival": 1758204962993}
+{"type": "drift", "node": "R2-N16", "drift_ms": 2961, "hlc_wall": 1758205001457, "arrival": 1758204998496}
+{"type": "drift", "node": "R3-N4", "drift_ms": 2221, "hlc_wall": 1758205040649, "arrival": 1758205038428}
+{"type": "drift", "node": "R2-N12", "drift_ms": 2419, "hlc_wall": 1758205041447, "arrival": 1758205039028}
+{"type": "drift", "node": "R2-N20", "drift_ms": 2414, "hlc_wall": 1758205078706, "arrival": 1758205076292}
+{"type": "drift", "node": "R4-N6", "drift_ms": 2303, "hlc_wall": 1758205105619, "arrival": 1758205103316}
+{"type": "drift", "node": "R1-N16", "drift_ms": 2259, "hlc_wall": 1758205130273, "arrival": 1758205128014}
+{"type": "drift", "node": "R2-N11", "drift_ms": 2334, "hlc_wall": 1758205147247, "arrival": 1758205144913}

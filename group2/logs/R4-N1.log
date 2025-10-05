@@ -1,0 +1,5 @@
+{"action": "send", "src": "R4-N1", "dst": "R1-N17", "hlc": {"phys": 1758205025686, "cnt": 0, "node": "R4-N1"}, "package_id": "PKG3", "payload": {"status": "delayed", "seq": 169}, "sent_ts": 1758205025686, "arrival_ts": 1758205025686}
+{"action": "recv", "src": "R1-N11", "dst": "R4-N1", "hlc": {"phys": 1758205059779, "cnt": 0, "node": "R1-N11"}, "package_id": "PKG2", "payload": {"status": "in-transit", "seq": 259}, "sent_ts": 1758205059779, "arrival_ts": 1758205060280}
+{"action": "recv", "src": "R3-N14", "dst": "R4-N1", "hlc": {"phys": 1758205089043, "cnt": 0, "node": "R3-N14"}, "package_id": "PKG5", "payload": {"status": "delayed", "seq": 324}, "sent_ts": 1758205089043, "arrival_ts": 1758205089643}
+{"action": "send", "src": "R4-N1", "dst": "R1-N5", "hlc": {"phys": 1758205135409, "cnt": 0, "node": "R4-N1"}, "package_id": "PKG10", "payload": {"status": "arrived", "seq": 438}, "sent_ts": 1758205135409, "arrival_ts": 1758205135409}
+{"action": "send", "src": "R4-N1", "dst": "R2-N13", "hlc": {"phys": 1758205150054, "cnt": 0, "node": "R4-N1"}, "package_id": "PKG2", "payload": {"status": "delivered", "seq": 473}, "sent_ts": 1758205150054, "arrival_ts": 1758205150054}

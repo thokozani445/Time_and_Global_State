@@ -1,0 +1,11 @@
+{"action": "recv", "src": "B", "dst": "C", "hlc": {"phys": 1758535461646, "cnt": 0, "node": "B"}, "package_id": "pkg2", "payload": "payload-2", "sent_ts": 1758535461646, "arrival_ts": 1758535461673}
+{"action": "send", "src": "C", "dst": "D", "hlc": {"phys": 1758535462915, "cnt": 0, "node": "C"}, "package_id": "pkg3", "payload": "payload-3", "sent_ts": 1758535462915, "arrival_ts": 1758535462915}
+{"action": "recv", "src": "B", "dst": "C", "hlc": {"phys": 1758535468088, "cnt": 0, "node": "B"}, "package_id": "pkg7", "payload": "payload-7", "sent_ts": 1758535468088, "arrival_ts": 1758535468226}
+{"action": "send", "src": "C", "dst": "D", "hlc": {"phys": 1758535469377, "cnt": 0, "node": "C"}, "package_id": "pkg8", "payload": "payload-8", "sent_ts": 1758535469377, "arrival_ts": 1758535469377}
+{"action": "recv", "src": "B", "dst": "C", "hlc": {"phys": 1758535506160, "cnt": 0, "node": "B"}, "package_id": "pkg2", "payload": "payload-2", "sent_ts": 1758535506160, "arrival_ts": 1758535506274}
+{"action": "send", "src": "C", "dst": "D", "hlc": {"phys": 1758535507432, "cnt": 0, "node": "C"}, "package_id": "pkg3", "payload": "payload-3", "sent_ts": 1758535507432, "arrival_ts": 1758535507432}
+{"action": "recv", "src": "B", "dst": "C", "hlc": {"phys": 1758535518803, "cnt": 0, "node": "B"}, "package_id": "pkg12", "payload": "payload-12", "sent_ts": 1758535518803, "arrival_ts": 1758535518958}
+{"action": "send", "src": "C", "dst": "D", "hlc": {"phys": 1758535520133, "cnt": 0, "node": "C"}, "package_id": "pkg13", "payload": "payload-13", "sent_ts": 1758535520133, "arrival_ts": 1758535520133}
+{"action": "recv", "src": "B", "dst": "C", "hlc": {"phys": 1758536437257, "cnt": 0, "node": "B"}, "package_id": "pkg2", "payload": "payload-2", "sent_ts": 1758536437257, "arrival_ts": 1758536437391}
+{"action": "send", "src": "C", "dst": "A", "hlc": {"phys": 1758536438538, "cnt": 0, "node": "C"}, "package_id": "pkg3", "payload": "payload-3", "sent_ts": 1758536438538, "arrival_ts": 1758536438538}
+{"action": "recv", "src": "B", "dst": "C", "hlc": {"phys": 1758536441002, "cnt": 0, "node": "B"}, "package_id": "pkg5", "payload": "payload-5", "sent_ts": 1758536441002, "arrival_ts": 1758536441124}

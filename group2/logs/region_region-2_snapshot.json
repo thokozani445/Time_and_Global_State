@@ -1,0 +1,26 @@
+{
+  "pkg2": {
+    "hlc": [
+      1758536437257,
+      0
+    ],
+    "payload": "payload-2",
+    "node": "B"
+  },
+  "pkg3": {
+    "hlc": [
+      1758536438538,
+      0
+    ],
+    "payload": "payload-3",
+    "node": "C"
+  },
+  "pkg5": {
+    "hlc": [
+      1758536441002,
+      0
+    ],
+    "payload": "payload-5",
+    "node": "B"
+  }
+}

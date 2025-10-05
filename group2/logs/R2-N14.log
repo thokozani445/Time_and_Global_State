@@ -1,0 +1,3 @@
+{"action": "recv", "src": "R2-N11", "dst": "R2-N14", "hlc": {"phys": 1758204993593, "cnt": 0, "node": "R2-N11"}, "package_id": "PKG6", "payload": {"status": "in-transit", "seq": 84}, "sent_ts": 1758204993593, "arrival_ts": 1758204993682}
+{"action": "recv", "src": "R4-N18", "dst": "R2-N14", "hlc": {"phys": 1758205023882, "cnt": 0, "node": "R4-N18"}, "package_id": "PKG10", "payload": {"status": "arrived", "seq": 165}, "sent_ts": 1758205023882, "arrival_ts": 1758205024398}
+{"action": "recv", "src": "R3-N14", "dst": "R2-N14", "hlc": {"phys": 1758205026635, "cnt": 0, "node": "R3-N14"}, "package_id": "PKG6", "payload": {"status": "arrived", "seq": 172}, "sent_ts": 1758205026635, "arrival_ts": 1758205027101}

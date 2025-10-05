@@ -1,0 +1,32 @@
+{
+  "pkg1": {
+    "hlc": [
+      1758201810436,
+      1
+    ],
+    "payload": {
+      "status": "in-transit"
+    },
+    "node": "A"
+  },
+  "pkg2": {
+    "hlc": [
+      1758201812568,
+      0
+    ],
+    "payload": {
+      "status": "delayed"
+    },
+    "node": "B"
+  },
+  "pkg3": {
+    "hlc": [
+      1758201812568,
+      1
+    ],
+    "payload": {
+      "status": "delivered"
+    },
+    "node": "A"
+  }
+}

@@ -1,0 +1,4 @@
+{"action": "recv", "src": "H", "dst": "I", "hlc": {"phys": 1758535513777, "cnt": 0, "node": "H"}, "package_id": "pkg8", "payload": "payload-8", "sent_ts": 1758535513777, "arrival_ts": 1758535513878}
+{"action": "send", "src": "I", "dst": "J", "hlc": {"phys": 1758535515054, "cnt": 0, "node": "I"}, "package_id": "pkg9", "payload": "payload-9", "sent_ts": 1758535515054, "arrival_ts": 1758535515054}
+{"action": "recv", "src": "H", "dst": "I", "hlc": {"phys": 1758535526494, "cnt": 0, "node": "H"}, "package_id": "pkg18", "payload": "payload-18", "sent_ts": 1758535526494, "arrival_ts": 1758535526661}
+{"action": "send", "src": "I", "dst": "J", "hlc": {"phys": 1758535527841, "cnt": 0, "node": "I"}, "package_id": "pkg19", "payload": "payload-19", "sent_ts": 1758535527841, "arrival_ts": 1758535527841}

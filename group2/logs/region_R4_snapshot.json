@@ -1,0 +1,112 @@
+{
+  "PKG3": {
+    "hlc": [
+      1758205149211,
+      0
+    ],
+    "payload": {
+      "status": "delivered",
+      "seq": 471
+    },
+    "node": "R4-N19"
+  },
+  "PKG2": {
+    "hlc": [
+      1758205154306,
+      0
+    ],
+    "payload": {
+      "status": "in-transit",
+      "seq": 483
+    },
+    "node": "R3-N13"
+  },
+  "PKG5": {
+    "hlc": [
+      1758205156050,
+      0
+    ],
+    "payload": {
+      "status": "delayed",
+      "seq": 487
+    },
+    "node": "R4-N9"
+  },
+  "PKG10": {
+    "hlc": [
+      1758205153667,
+      0
+    ],
+    "payload": {
+      "status": "in-transit",
+      "seq": 480
+    },
+    "node": "R4-N13"
+  },
+  "PKG9": {
+    "hlc": [
+      1758205160095,
+      0
+    ],
+    "payload": {
+      "status": "delivered",
+      "seq": 499
+    },
+    "node": "R4-N2"
+  },
+  "PKG4": {
+    "hlc": [
+      1758205154013,
+      0
+    ],
+    "payload": {
+      "status": "in-transit",
+      "seq": 481
+    },
+    "node": "R3-N4"
+  },
+  "PKG1": {
+    "hlc": [
+      1758205140933,
+      0
+    ],
+    "payload": {
+      "status": "delivered",
+      "seq": 449
+    },
+    "node": "R2-N10"
+  },
+  "PKG7": {
+    "hlc": [
+      1758205152314,
+      0
+    ],
+    "payload": {
+      "status": "arrived",
+      "seq": 477
+    },
+    "node": "R1-N9"
+  },
+  "PKG8": {
+    "hlc": [
+      1758205152778,
+      0
+    ],
+    "payload": {
+      "status": "in-transit",
+      "seq": 478
+    },
+    "node": "R1-N10"
+  },
+  "PKG6": {
+    "hlc": [
+      1758205148755,
+      0
+    ],
+    "payload": {
+      "status": "arrived",
+      "seq": 470
+    },
+    "node": "R4-N15"
+  }
+}

@@ -1,0 +1,46 @@
+:root{
+  --bg:#f3f4f6;
+  --card:#ffffff;
+  --muted:#6b7280;
+  --accent-blue:#2563eb; /* blue-600 */
+  --accent-orange:#f97316; /* orange-500 */
+  --danger:#b91c1c;
+  --success:#059669;
+  --surface-shadow: 0 6px 18px rgba(16,24,40,0.06);
+  --max-width:1200px;
+  --radius:10px;
+}
+
+/* base */
+*{box-sizing:border-box}
+body{font-family:Inter, Roboto, "Segoe UI", Arial, sans-serif; margin:0; background:var(--bg); color:#111827; -webkit-font-smoothing:antialiased;}
+.container{max-width:var(--max-width); margin:18px auto; padding:16px;}
+.header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px;}
+.card{background:var(--card); border-radius:var(--radius); padding:12px; box-shadow:var(--surface-shadow);}
+.grid{display:grid; grid-template-columns: 1fr 380px; gap:16px;}
+@media (max-width: 920px){ .grid{grid-template-columns: 1fr; } }
+
+/* components */
+.h3{font-size:1.05rem;margin:0 0 8px 0}
+.small{font-size:0.9rem;color:var(--muted)}
+.region-badge{padding:6px 8px;border-radius:8px;background:#eef2ff;color:var(--accent-blue);font-weight:600}
+.status-dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:8px;vertical-align:middle}
+.ws-connected{background:var(--success)}
+.ws-disconnected{background:var(--danger)}
+.btn{padding:8px 12px;border-radius:8px;border:none;background:var(--accent-blue);color:white;cursor:pointer}
+.btn-secondary{background:#e6f4ff;color:var(--accent-blue);border:1px solid #dbeafe}
+.filter-row{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.input{padding:8px;border-radius:8px;border:1px solid #e5e7eb;background:white;min-width:120px}
+.toast-success{background:var(--success);color:white;padding:8px;border-radius:6px}
+
+/* timeline item */
+.timeline-item{padding:10px;border-bottom:1px solid #f3f4f6;display:flex;justify-content:space-between; gap:12px;align-items:center}
+.timeline-meta{font-size:12px;color:var(--muted)}
+.anomaly-badge{padding:4px 8px;border-radius:8px;font-weight:700}
+.anom-info{background:#fff7ed;color:#92400e}
+.anom-warn{background:#fff1f2;color:#9f1239}
+.anom-crit{background:#fee2e2;color:#7f1d1d}
+
+/* modal */
+.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.45);display:flex;align-items:center;justify-content:center}
+.modal{background:white;padding:16px;border-radius:10px;max-width:760px;width:92%;max-height:86vh;overflow:auto}

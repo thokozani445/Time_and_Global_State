@@ -1,0 +1,32 @@
+{"action": "send", "src": "A", "dst": "B", "hlc": [1758196884539, 0], "package_id": "pkg1", "payload": {"status": "in-transit"}}
+{"action": "recv", "src": "B", "dst": "A", "hlc": [1758196886579, 1], "package_id": "pkg2", "payload": {"status": "delayed"}}
+{"action": "send", "src": "A", "dst": "B", "hlc": [1758196886579, 2], "package_id": "pkg3", "payload": {"status": "delivered"}}
+{"action": "send", "src": "A", "dst": "B", "hlc": [1758197715844, 0], "package_id": "pkg1", "payload": {"status": "in-transit"}}
+{"action": "recv", "src": "B", "dst": "A", "hlc": [1758197717939, 0], "package_id": "pkg2", "payload": {"status": "delayed"}}
+{"action": "send", "src": "A", "dst": "B", "hlc": [1758197717939, 1], "package_id": "pkg3", "payload": {"status": "delivered"}}
+{"action": "send", "src": "A", "dst": "B", "hlc": [1758197740252, 0], "package_id": "pkg1", "payload": {"status": "in-transit"}}
+{"action": "recv", "src": "B", "dst": "A", "hlc": [1758197742416, 1], "package_id": "pkg2", "payload": {"status": "delayed"}}
+{"action": "send", "src": "A", "dst": "B", "hlc": [1758197742416, 2], "package_id": "pkg3", "payload": {"status": "delivered"}}
+{"action": "send", "src": "A", "dst": "B", "hlc": [1758198071846, 0], "package_id": "pkg1", "payload": {"status": "in-transit"}}
+{"action": "recv", "src": "B", "dst": "A", "hlc": [1758198073997, 0], "package_id": "pkg2", "payload": {"status": "delayed"}}
+{"action": "send", "src": "A", "dst": "B", "hlc": [1758198073997, 1], "package_id": "pkg3", "payload": {"status": "delivered"}}
+{"action": "send", "src": "A", "dst": "B", "hlc": [1758198268411, 0], "package_id": "pkg1", "payload": {"status": "in-transit"}}
+{"action": "recv", "src": "B", "dst": "A", "hlc": [1758198270480, 0], "package_id": "pkg2", "payload": {"status": "delayed"}}
+{"action": "send", "src": "A", "dst": "B", "hlc": [1758198270480, 1], "package_id": "pkg3", "payload": {"status": "delivered"}}
+{"action": "send", "src": "A", "dst": "B", "hlc": {"phys": 1758200180136, "cnt": 1, "node": "A"}, "package_id": "pkg1", "payload": {"status": "in-transit"}, "sent_ts": 1758200180136, "arrival_ts": 1758200180136}
+{"action": "recv", "src": "B", "dst": "A", "hlc": {"phys": 1758200182228, "cnt": 1, "node": "B"}, "package_id": "pkg2", "payload": {"status": "delayed"}, "sent_ts": 1758200180228, "arrival_ts": 1758200180253}
+{"action": "send", "src": "A", "dst": "B", "hlc": {"phys": 1758200182228, "cnt": 1, "node": "A"}, "package_id": "pkg3", "payload": {"status": "delivered"}, "sent_ts": 1758200180253, "arrival_ts": 1758200180253}
+{"action": "send", "src": "A", "dst": "B", "hlc": {"phys": 1758201810436, "cnt": 1, "node": "A"}, "package_id": "pkg1", "payload": {"status": "in-transit"}, "sent_ts": 1758201810436, "arrival_ts": 1758201810436}
+{"action": "recv", "src": "B", "dst": "A", "hlc": {"phys": 1758201812568, "cnt": 0, "node": "B"}, "package_id": "pkg2", "payload": {"status": "delayed"}, "sent_ts": 1758201810568, "arrival_ts": 1758201810678}
+{"action": "send", "src": "A", "dst": "B", "hlc": {"phys": 1758201812568, "cnt": 1, "node": "A"}, "package_id": "pkg3", "payload": {"status": "delivered"}, "sent_ts": 1758201810680, "arrival_ts": 1758201810680}
+{"action": "send", "src": "A", "dst": "B", "hlc": {"phys": 1758535460230, "cnt": 0, "node": "A"}, "package_id": "pkg1", "payload": "payload-1", "sent_ts": 1758535460230, "arrival_ts": 1758535460230}
+{"action": "recv", "src": "E", "dst": "A", "hlc": {"phys": 1758535465608, "cnt": 0, "node": "E"}, "package_id": "pkg5", "payload": "payload-5", "sent_ts": 1758535465608, "arrival_ts": 1758535465683}
+{"action": "send", "src": "A", "dst": "B", "hlc": {"phys": 1758535466842, "cnt": 0, "node": "A"}, "package_id": "pkg6", "payload": "payload-6", "sent_ts": 1758535466842, "arrival_ts": 1758535466842}
+{"action": "recv", "src": "E", "dst": "A", "hlc": {"phys": 1758535471842, "cnt": 0, "node": "E"}, "package_id": "pkg10", "payload": "payload-10", "sent_ts": 1758535471842, "arrival_ts": 1758535471862}
+{"action": "send", "src": "A", "dst": "B", "hlc": {"phys": 1758535504980, "cnt": 0, "node": "A"}, "package_id": "pkg1", "payload": "payload-1", "sent_ts": 1758535504980, "arrival_ts": 1758535504980}
+{"action": "recv", "src": "J", "dst": "A", "hlc": {"phys": 1758535516279, "cnt": 0, "node": "J"}, "package_id": "pkg10", "payload": "payload-10", "sent_ts": 1758535516279, "arrival_ts": 1758535516422}
+{"action": "send", "src": "A", "dst": "B", "hlc": {"phys": 1758535517584, "cnt": 0, "node": "A"}, "package_id": "pkg11", "payload": "payload-11", "sent_ts": 1758535517584, "arrival_ts": 1758535517584}
+{"action": "recv", "src": "J", "dst": "A", "hlc": {"phys": 1758535529210, "cnt": 0, "node": "J"}, "package_id": "pkg20", "payload": "payload-20", "sent_ts": 1758535529210, "arrival_ts": 1758535529287}
+{"action": "send", "src": "A", "dst": "B", "hlc": {"phys": 1758536435993, "cnt": 0, "node": "A"}, "package_id": "pkg1", "payload": "payload-1", "sent_ts": 1758536435993, "arrival_ts": 1758536435993}
+{"action": "recv", "src": "C", "dst": "A", "hlc": {"phys": 1758536438538, "cnt": 0, "node": "C"}, "package_id": "pkg3", "payload": "payload-3", "sent_ts": 1758536438538, "arrival_ts": 1758536438592}
+{"action": "send", "src": "A", "dst": "B", "hlc": {"phys": 1758536439731, "cnt": 0, "node": "A"}, "package_id": "pkg4", "payload": "payload-4", "sent_ts": 1758536439731, "arrival_ts": 1758536439731}
