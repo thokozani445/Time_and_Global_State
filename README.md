@@ -24,8 +24,8 @@ This project simulates a global distributed system for package delivery, demonst
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/global-delivery-simulator.git
-   cd global-delivery-simulator
+   git clone https://github.com/thokozani445/Time_and_Global_State.git
+   cd TIME_AND_GLOBALSTATE
    ```
 
 2. **Install backend dependencies:**
